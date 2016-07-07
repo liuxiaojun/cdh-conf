@@ -65,7 +65,7 @@
 
   <property>
      <name>dfs.datanode.data.dir</name>
-     <value>/etc/hadoop/data/1/dfs/dn,/etc/hadoop/data/2/dfs/dn,/etc/hadoop/data/3/dfs/dn,/etc/hadoop/data/4/dfs/dn,/etc/hadoop/data/5/dfs/dn,/etc/hadoop/data/6/dfs/dn,/etc/hadoop/data/7/dfs/dn,/etc/hadoop/data/8/dfs/dn,/etc/hadoop/data/9/dfs/dn</value> 
+     <value>/data1/dfs/dn,/data2/dfs/dn,/data3/dfs/dn,/data4/dfs/dn,/data5/dfs/dn,/data6/dfs/dn,/data7/dfs/dn,/data8/dfs/dn,/data9/dfs/dn,/data10/dfs/dn,/data11/dfs/dn,/data12/dfs/dn</value> 
      <description>Determines where on the local filesystem an DFS data node
 		  should store its blocks.  If this is a comma-delimited
 		  list of directories, then data will be stored in all named
